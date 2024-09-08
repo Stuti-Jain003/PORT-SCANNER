@@ -36,13 +36,15 @@ components:
 
 ### Commands:
 - Basic IP Port Scan:
-  > java -cp target/classes portScanner.postScan <host> <port>
+  > java -cp target/classes portScanner.postScan `<host>` `<port>`
 - Vanilla Scan:
-  >java -cp target/classes portScanner.NetworkVanillaScan <host>
-- Sweep Scan:
-  > java -cp target/classes portScanner.SweepScanner <hosts>
+  >java -cp target/classes portScanner.HostPortScanner
+- SweepScanner  
+> javac -cp ".;path/to/commons-cli-1.4.jar" SWEEP.java
+> java -cp ".;path/to/commons-cli-1.4.jar" SWEEP -host "192.168.1.*" -port 80
+
 - Network Scan:
-  > java -cp target/classes portScanner.HostPortScanner <network>
+  > java -cp target/classes portScanner.NetworkVanillaScan `<networkPrefix>` `<startIP>` `<endIP>` `[<ports>]`
 - SYN Scan:
   > java -cp target/classes portScanner.SynScanner <host> <port>
 ## Disclaimer

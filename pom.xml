@@ -17,23 +17,23 @@
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.pcap4j/pcap4j-packetfactory-static -->
         <!-- https://mvnrepository.com/artifact/org.pcap4j/pcap4j-core -->
-        <dependency>
-            <groupId>org.pcap4j</groupId>
-            <artifactId>pcap4j-core</artifactId>
-            <version>2.0.0-alpha.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.pcap4j</groupId>-->
+<!--            <artifactId>pcap4j-core</artifactId>-->
+<!--            <version>2.0.0-alpha.6</version>-->
+<!--        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.pcap4j/pcap4j-packetfactory-static -->
-        <dependency>
-            <groupId>org.pcap4j</groupId>
-            <artifactId>pcap4j-packetfactory-static</artifactId>
-            <version>2.0.0-alpha.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.pcap4j</groupId>-->
+<!--            <artifactId>pcap4j-packetfactory-static</artifactId>-->
+<!--            <version>2.0.0-alpha.6</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.pcap4j</groupId>
-            <artifactId>pcap4j</artifactId>
-            <version>2.0.0-alpha.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.pcap4j</groupId>-->
+<!--            <artifactId>pcap4j</artifactId>-->
+<!--            <version>2.0.0-alpha.6</version>-->
+<!--        </dependency>-->
 
 <!--        <dependency>-->
 <!--            <groupId>org.pcap4j</groupId>-->
