@@ -1,7 +1,6 @@
 # Port Scanner CLI Application
 
 ## Overview:
-description:
 >This project is a command-line tool for network port scanning, similar to popular tools like Nmap. It provides different types of scans to identify open ports and active hosts within a network. This scanner is useful for network administrators, security professionals, and developers interested in understanding network security.
 
 ## Features:
@@ -37,13 +36,13 @@ components:
 
 ### Commands:
 - Basic IP Port Scan:
-  > java -cp target/classes portScanner.BasicPortScanner <host> <port>
+  > java -cp target/classes portScanner.postScan <host> <port>
 - Vanilla Scan:
-  >java -cp target/classes portScanner.VanillaScanner <host>
+  >java -cp target/classes portScanner.NetworkVanillaScan <host>
 - Sweep Scan:
   > java -cp target/classes portScanner.SweepScanner <hosts>
-  - Network Scan:
-  > java -cp target/classes portScanner.NetworkScanner <network>
+- Network Scan:
+  > java -cp target/classes portScanner.HostPortScanner <network>
 - SYN Scan:
   > java -cp target/classes portScanner.SynScanner <host> <port>
 ## Disclaimer
@@ -53,4 +52,4 @@ components:
 >Contributions, suggestions, and improvements are welcome! Please submit a pull request or raise an issue to start contributing.
 
 ## License:
-license: MIT License
+MIT License
