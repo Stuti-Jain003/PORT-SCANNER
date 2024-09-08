@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57745a21-7e0c-4224-93e1-a4b8c5ca2453" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/portScanner/SweepScanner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/portScanner/SynScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/portScanner/PortScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/portScanner/HostPortScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/portScanner/PortScannerNmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/portScanner/NetworkVanillaScan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/portScanner/portScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/portScanner/portScan.java" afterDir="false" />
